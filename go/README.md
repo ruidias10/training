@@ -1,7 +1,7 @@
-#Go
+# Go
 
 
-###Terminal commands
+### Terminal commands
 ```
   $ go vet main.go
   $ godoc -http=:6060
