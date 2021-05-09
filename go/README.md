@@ -1,6 +1,5 @@
 # Go
 
-
 ### Terminal commands
 ```
   $ go vet main.go
