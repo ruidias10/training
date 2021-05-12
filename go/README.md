@@ -1,17 +1,18 @@
 # Go
 
-### Terminal commands
+### Basic Commands
 ```
-  $ go vet main.go
-  $ godoc -http=:6060
   $ go build main.go
   $ go run main.go
-  $ go get -u github.com/go-sql-driver/mysql
+  $ go vet main.go
+  $ godoc -http=:6060  
 ```
 
 ### Package
 ```
   $ go mod init <name>
   $ go build
-  ./<name>
+  $ ./<name>
+  $ go get github.com/badoux/checkmail
+  $ go mod tidy
 ```
