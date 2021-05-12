@@ -8,3 +8,10 @@
   $ go run main.go
   $ go get -u github.com/go-sql-driver/mysql
 ```
+
+### Package
+```
+  $ go mod init <name>
+  $ go build
+  ./<name>
+```
