@@ -8,7 +8,7 @@ This repository is for the study of Shell Script. It contains basic content that
 
 Scripts can be run without the need to be installed. To run:
 ```
-$ cd script-01
+$ cd 01-script
 $ chmod +x script.sh
 $ ./script.sh
 ```
@@ -30,7 +30,7 @@ $ ./script.sh
 Program that receives an argument as a path to list content. If it does not receive parameters, list the desktop folder. At the end it displays a sum of files and folders.
 
 ```
-$ cd script-02
+$ cd 02-script
 $ ./script.sh
 $ ./script.sh anything
 $ ./script.sh folder/
@@ -43,7 +43,7 @@ $ ./script.sh folder/
 This program receives as argument a folder or file creating a backup.
 
 ```
-$ cd script-03
+$ cd 03-script
 $ ./script.sh file.txt
 $ ./script.sh files/
 

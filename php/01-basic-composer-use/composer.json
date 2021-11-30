@@ -1,0 +1,17 @@
+{
+    "name": "ruidias/basic-composer-use",
+    "autoload": {
+        "psr-4": {
+            "Ruidias\\BasicComposerUse\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rui Dias",
+            "email": "rui.dias10@gmail.com"
+        }
+    ],
+    "require": {
+        "wead/digital-cep": "^1.0"
+    }
+}
