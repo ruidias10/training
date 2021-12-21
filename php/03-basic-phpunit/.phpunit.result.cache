@@ -1,0 +1,1 @@
+{"version":1,"defects":[],"times":{"SearchTest::testGetAddressFromZipCodeBasicUsage":0.768,"SearchTest::testGetAddressFromZipCodeDefaultUsage with data set \"CEF 01001-000\"":0.816,"SearchTest::testGetAddressFromZipCodeDefaultUsage with data set \"CEF 03624-010\"":0.652}}

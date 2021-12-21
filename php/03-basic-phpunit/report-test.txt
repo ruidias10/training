@@ -1,0 +1,5 @@
+Search
+ [x] Get address from zip code basic usage
+ [x] Get address from zip code default usage with data set "CEF 01001-000"
+ [x] Get address from zip code default usage with data set "CEF 03624-010"
+
