@@ -14,12 +14,14 @@ class MyUser extends Controller
     public function signup(Request $request) {
         $request->validate([
             "name" => "required",
-            "email" => "required|email",
+            "email" => "required|email|unique:Users,email",
             "password" => "required|min:5"
         ]);
 
-        MyUserModel::newUser($request);
+        if (MyUserModel::newUser($request)) {
+            return view('user.success', ['name' => $request->get('name')]);
+        }
 
-        return view('user.success');
+        echo "Erro!";
     }
 }

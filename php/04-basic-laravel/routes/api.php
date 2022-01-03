@@ -2,6 +2,8 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Models\MyUser;
+use App\Http\Controllers\API\MyUserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,10 +20,8 @@ use Illuminate\Support\Facades\Route;
 Route::prefix('v1')->group(function(){
 
     Route::get('list', function(){
-        return [1, 2, 3, 4, 5];
+        return MyUser::list(10);
     });
 
-    Route::post('addNewUser', function(){
-        echo 'addNewUser';
-    });
+    Route::post('addNewUser', [MyUserController::class, 'insert']);
 });

@@ -65,4 +65,5 @@
   $ php artisan config:cache 
   $ php artisan make:controller MyUser
   $ php artisan make:model MyUser
+  $ php artisan route:list
 ```

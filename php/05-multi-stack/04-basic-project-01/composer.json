@@ -1,0 +1,16 @@
+{
+    "name": "ruidias/04-basic-project-01",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rui Dias",
+            "email": "rui.dias10@gmail.com"
+        }
+    ],
+    "require": {}
+}
